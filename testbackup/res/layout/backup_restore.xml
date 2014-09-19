@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content">
+
+    <ScrollView
+       android:orientation="vertical"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:layout_weight="1">
+
+        <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+            <TextView android:text="@string/filling_text"
+               android:textSize="20dp"
+               android:layout_marginTop="20dp"
+               android:layout_marginBottom="10dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+            <RadioGroup android:id="@+id/filling_group"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="20dp"
+               android:orientation="vertical">
+
+                <RadioButton android:id="@+id/bacon"
+                   android:text="@string/bacon_label"/>
+                <RadioButton android:id="@+id/pastrami"
+                   android:text="@string/pastrami_label"/>
+                <RadioButton android:id="@+id/hummus"
+                   android:text="@string/hummus_label"/>
+
+            </RadioGroup>
+
+            <TextView android:text="@string/extras_text"
+               android:textSize="20dp"
+               android:layout_marginTop="20dp"
+               android:layout_marginBottom="10dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+            <CheckBox android:id="@+id/mayo"
+               android:text="@string/mayo_text"
+               android:layout_marginLeft="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+            <CheckBox android:id="@+id/tomato"
+               android:text="@string/tomato_text"
+               android:layout_marginLeft="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
