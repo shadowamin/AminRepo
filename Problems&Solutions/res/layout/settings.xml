@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+<!--     <RelativeLayout
+        android:id="@+id/imgSettingsButtonLay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        
+           <View
+               android:id="@+id/imgSettingsButton"
+               android:layout_width="wrap_content"
+               android:layout_height="50dp"
+               android:layout_alignParentRight="true"
+               android:src="@drawable/settings"
+               />
+
+         
+        
+    </RelativeLayout> -->
+ 
+
+    <LinearLayout
+        android:id="@+id/layoutSettingsMenu"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentRight="true"
+        android:padding="1dp"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        android:background="@drawable/settingsborder"
+        >
+       
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp" 
+            android:background="#efefef"
+            android:onClick="onClick"
+            >
+<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:layout_centerVertical="true" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="Show Categories"
+                    android:textColor="@android:color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <CheckBox
+                    android:id="@+id/checkBox1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="itemClicked"
+                    android:checked="true"
+                    android:text="" />
+            </LinearLayout>
+           <View
+android:layout_width="fill_parent"
+android:layout_height="1dip"
+android:layout_alignParentBottom="true"
+android:background="@color/green"  /> 
+        </RelativeLayout>
+<RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#efefef" 
+            android:onClick="AddCat" >
+<TextView
+        android:id="@+id/AddCat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Categorie"
+        android:layout_centerVertical="true"
+        android:paddingLeft="5dp"
+         android:textColor="@android:color/black"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+           <View
+android:layout_width="fill_parent"
+android:layout_height="1dip"
+android:layout_alignParentBottom="true"
+android:background="@color/green"  /> 
+        </RelativeLayout>
+ <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#efefef" 
+            android:onClick="showDeleteDialog" >
+<TextView
+        android:id="@+id/DelCat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Categorie"
+        android:layout_centerVertical="true"
+        android:paddingLeft="5dp"
+         android:textColor="@android:color/black"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+        </RelativeLayout>
+    </LinearLayout>
+
+<ImageView
+            android:id="@+id/settingBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+           
+            android:onClick="onClick"
+            android:layout_alignParentRight="true" 
+            android:src="@drawable/settings" />
+
+</RelativeLayout>
