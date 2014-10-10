@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">的问题与解决方案</string>
+    <string name="hello_world">世界，你好！</string>
+    <string name="action_settings">设置</string>
+    <string name="a_cancel">取消</string>
+    <string name="a_save">保存</string>
+    <string name="priority_set">优先级设置</string>
+    <string name="nodate">无日期</string>
+    <string name="a_categories">分类</string>
+    <string name="a_others">其他</string>
+    <string name="a_work">工作</string>
+    <string name="a_study">学习</string>
+    <string name="a_health">健康</string>
+    <string name="a_social">社会</string>
+    <string name="a_result">结果</string>
+    <string name="try_again">重试</string>
+    <string name="ok">确定</string>
+    <string name="a_problems">问题</string>
+    <string name="a_delete">删除</string>
+    <string name="show_categories">显示类别</string>
+    <string name="a_notification">的通知</string>
+    <string name="addcat">添加种类</string>
+    <string name="delete_categories"> Dalete类别</string>
+    <string name="a_solutions">解决方案</string>
+    <string name="save_fixed">另存为固定的吗？</string>
+    <string name="save_unfixed">另存为不固定？</string>
+    <string name="delete_prob">删除问题？</string>
+    <string name="delete_sol">删除解决方案？</string>
+    <string name="a_all">所有</string>
+    <string name="a_fixed">固定</string>
+    <string name="a_unfixed">非固定</string>
+    <string name="deletedcat">目录删除</string>
+    <string name="notifon">有关通知</string>
+    <string name="notifoff">通知关闭</string>
+     <string name="notifmsg">的问题</string>
+<string name="textNoProb">你可以从这里加入一个新的问题 :)</string>
+</resources>

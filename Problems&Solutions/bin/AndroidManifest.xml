@@ -9,10 +9,17 @@
         android:targetSdkVersion="19" />
 
     <application
-        android:allowBackup="true"
+         android:allowBackup="true"
+        android:largeHeap="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
          android:theme="@style/AppTheme">
+             <service
+  android:name="ServiceNotification"
+android:icon="@drawable/warningnotif"
+  android:label="ServiceNotification"
+  >
+</service>
         <activity
             android:name="com.saladinprojects.problemssolutions.MainActivity"
             android:label="@string/app_name" 

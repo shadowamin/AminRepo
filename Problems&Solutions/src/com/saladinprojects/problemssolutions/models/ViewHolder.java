@@ -1,5 +1,6 @@
 package com.saladinprojects.problemssolutions.models;
 
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -18,5 +19,6 @@ public class ViewHolder {
 	public	ImageView Arrow;
 	public	LinearLayout linearArrow;
 	public	ImageView EditImage;
+	public View problemPrio;
 	
 	}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name"> Problemen&amp;Solutions </string>
+    <string name="hello_world"> Hallo wereld! </string>
+    <string name="action_settings"> Instellingen </string>
+    <string name="a_cancel"> Annuleren </string>
+    <string name="a_save"> Opslaan </string>
+    <string name="priority_set"> Prioriteit instellen </string>
+    <string name="nodate"> Geen datum </string>
+    <string name="a_categories"> Categorieën </string>
+    <string name="a_others"> Overige </string>
+    <string name="a_work"> Werk </string>
+    <string name="a_study"> Studie </string>
+    <string name="a_health"> Gezondheid </string>
+    <string name="a_social"> Sociale </string>
+    <string name="a_result"> Resultaat </string>
+    <string name="try_again"> Opnieuw </string>
+    <string name="ok"> OK </string>
+    <string name="a_problems"> Problemen </string>
+    <string name="a_delete"> Verwijderen </string>
+    <string name="show_categories"> Show categorieën </string>
+    <string name="a_notification"> Notification </string>
+    <string name="addcat"> Toevoegen categorie </string>
+    <string name="delete_categories"> Dalete categorieën </string>
+    <string name="a_solutions"> Oplossingen </string>
+    <string name="save_fixed"> Opslaan als vast? </string>
+    <string name="save_unfixed"> Opslaan als losgemaakte? </string>
+    <string name="delete_prob"> Delete probleem? </string>
+    <string name="delete_sol"> Delete oplossing? </string>
+    <string name="a_all"> alle </string>
+    <string name="a_fixed"> Vaste </string>
+    <string name="a_unfixed"> Unfixed </string>
+    <string name="deletedcat"> Categorieën verwijderen </string>
+    <string name="notifon"> Notification op </string>
+    <string name="notifoff"> Notification off </string>
+    <string name="notifmsg"> problemen om vandaag op te lossen </string>
+<string name="textNoProb">U kunt een nieuw probleem \n toevoegen van hier :)</string>
+</resources>

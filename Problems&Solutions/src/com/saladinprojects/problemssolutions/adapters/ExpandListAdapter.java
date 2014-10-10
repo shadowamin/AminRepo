@@ -74,6 +74,7 @@ public class ExpandListAdapter extends BaseExpandableListAdapter {
 					.findViewById(R.id.LayoutInfo);
 //			holder.CatLayout=(LinearLayout)view
 //					.findViewById(R.id.CatLayout);
+			holder.problemPrio=(View)view.findViewById(R.id.problemPrio);
 			holder.linearArrow=(LinearLayout)view
 					.findViewById(R.id.linearArrow);
 			holder.Cat=(ImageView)view
@@ -105,23 +106,30 @@ public class ExpandListAdapter extends BaseExpandableListAdapter {
 //		else
 //			holder.CatLayout.setVisibility(View.GONE);
 		if(item.getPriority()==0)
-			holder.Priority.setImageResource(R.drawable.nopriority);
-		else
-			holder.Priority.setImageResource(R.drawable.priority);
-
+			{holder.Priority.setImageResource(R.drawable.nopriority);
+			holder.problemPrio.setVisibility(View.GONE);
+			view.setBackgroundColor(Color.WHITE);
+			}else
+			{holder.Priority.setImageResource(R.drawable.priority);
+			view.setBackgroundColor(context.getResources().getColor(R.color.redBeck));
+			holder.problemPrio.setVisibility(View.VISIBLE);
+			}
 		if(item.getCat()>=0)
 			holder.Cat.setImageResource(R.drawable.tagon);
 		else
 			holder.Cat.setImageResource(R.drawable.tagoff);
-		if(item.getTypeprob()>0)
-			holder.titre.setTextColor(Color.parseColor("#87d2a9"));
+	
 		if(item.getDate()!=null && !item.getDate().equals(""))
 			holder.DateImage.setImageResource(R.drawable.calendaron);
 		else
 			holder.DateImage.setImageResource(R.drawable.calendaroff);
 		holder.titre.setMaxLines(1);
 	
-		
+		if(item.getTypeprob()>0)
+		{	holder.titre.setTextColor(context.getResources().getColor(R.color.lightgreen));
+		holder.problemPrio.setVisibility(View.GONE);
+		view.setBackgroundColor(Color.WHITE);
+		}
 		return view;
 	}
 

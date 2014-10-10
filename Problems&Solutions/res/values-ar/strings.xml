@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">مشاكل و حلول</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+ <string name="a_cancel">إلغاء</string>
+  <string name="a_save">سجل</string>
+   <string name="priority_set">تمت إضافةالأولوية </string>
+   <string name="nodate">بدون تاريخ</string>
+   <string name="a_categories">فئات</string>
+   <string name="a_others">فئات أخرى</string>
+   <string name="a_work">العمل</string>
+   <string name="a_study">الدراسة</string>
+   <string name="a_health">الصحة</string>
+   <string name="a_social">الحياة الإجتماعية</string>
+   <string name="a_result">النتائج</string>
+   <string name="try_again">أعد المحاولة</string>
+   <string name="ok">موافق</string>
+   <string name="a_problems">مشاكل</string>
+   <string name="a_delete">حذف</string>
+   <string name="show_categories">عرض الفئات</string>
+   <string name="a_notification">الإشعارات</string>
+   <string name="addcat">أضف فأة</string>
+   <string name="delete_categories">حذف فأت</string>
+   <string name="a_solutions">الحلول</string>
+   <string name="save_fixed">سجل المشكل , تم حله؟</string>
+    <string name="save_unfixed">سجل المشكل , لم يحل بعد؟</string>
+   <string name="delete_prob">حذف المشكل؟</string>
+    <string name="delete_sol">حذف الحل ؟</string>
+   <string name="a_all">الكل</string>
+   <string name="a_fixed">تم حلهم</string>
+   <string name="a_unfixed">لم تحل بعد</string>
+   <string name="deletedcat">فأت حذفت</string>
+   <string name="notifon">تمت إضافة الإشعار</string>
+   <string name="notifoff">تم إلغاء الإشعار</string>
+    <string name="notifmsg">مشاكل يجب حلها اليوم</string>
+    <string name="textNoProb">يمكنك إضافة مشكلة جديدة \n من هنا :)</string>
+   
+</resources>

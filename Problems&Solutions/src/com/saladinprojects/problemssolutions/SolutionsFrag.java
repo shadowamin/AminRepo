@@ -92,11 +92,11 @@ import com.saladinprojects.problemssolutions.models.ViewHolder2;
 	
 		 TheProblem.setText(""+problem.getResprob());
 		 Categorie.setText(""+db.GetCategorie(problem.getCat()));
-		 if(problem.getPriority()==0)
-			 Priority.setVisibility(View.GONE);
-			else
-				Priority.setVisibility(View.VISIBLE);
-	
+//		 if(problem.getPriority()==0)
+//			 Priority.setVisibility(View.GONE);
+//			else
+//				Priority.setVisibility(View.VISIBLE);
+		 Priority.setVisibility(View.GONE);
 		 Date.setText(""+problem.getDate());
 		 
 		 if(problem.getTypeprob()==0)
@@ -118,13 +118,13 @@ import com.saladinprojects.problemssolutions.models.ViewHolder2;
 	String Msg2;
 	final int drawable;
 		if(done)
-		{Msg1="Save as resolved";
-		Msg2="This will save the problem as resolved";
+		{Msg1=getString(R.string.save_fixed);
+		Msg2="";
 		drawable=R.drawable.done;
 		}
 		else
-		{Msg1="Save as not resolved";
-		Msg2="This will save the problem as not resolved";
+		{Msg1=getString(R.string.save_unfixed);
+		Msg2="";
 		drawable=R.drawable.notedone;
 		}
 		AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(
@@ -136,7 +136,7 @@ import com.saladinprojects.problemssolutions.models.ViewHolder2;
 			alertDialogBuilder
 				.setMessage(Msg2)
 				.setCancelable(false)
-				.setPositiveButton("Save",new DialogInterface.OnClickListener() {
+				.setPositiveButton(getString(R.string.a_save),new DialogInterface.OnClickListener() {
 					public void onClick(DialogInterface dialog,int id) {
 					Doneprob.setImageResource(drawable);
 					if(done)
@@ -147,7 +147,7 @@ import com.saladinprojects.problemssolutions.models.ViewHolder2;
 					problem.setTypeprob(0);
 					}}
 				  })
-				.setNegativeButton("Cancel",new DialogInterface.OnClickListener() {
+				.setNegativeButton(getString(R.string.a_cancel),new DialogInterface.OnClickListener() {
 					public void onClick(DialogInterface dialog,int id) {
 						dialog.cancel();
 					}
@@ -188,7 +188,7 @@ public void changeEdit(String sentence)
 			AlertMessage(false);
 	break;
 	case R.id.VoiceSol:
-		((MainActivity)getActivity()).listenToSpeech("",true);
+		((MainActivity)getActivity()).listenToSpeech("",true,NewSolution);
 		 break;
 	case R.id.SaveSol:
 		if(NewSolution.getText().length()==0)
@@ -259,12 +259,12 @@ public void changeEdit(String sentence)
 				AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(
 						(MainActivity)getActivity());
 		 
-					alertDialogBuilder.setTitle("Delete Problem");
+					alertDialogBuilder.setTitle(getString(R.string.delete_sol));
 		 
 					alertDialogBuilder
-						.setMessage("This will delete the solution")
+						.setMessage("")
 						.setCancelable(false)
-						.setPositiveButton("Delete",new DialogInterface.OnClickListener() {
+						.setPositiveButton(getString(R.string.a_delete),new DialogInterface.OnClickListener() {
 							public void onClick(DialogInterface dialog,int id) {
 								
 								db.deleteSolution(ItemClicked);
@@ -273,7 +273,7 @@ public void changeEdit(String sentence)
 								reloadSolList();
 							}
 						  })
-						.setNegativeButton("Cancel",new DialogInterface.OnClickListener() {
+						.setNegativeButton(getString(R.string.a_cancel),new DialogInterface.OnClickListener() {
 							public void onClick(DialogInterface dialog,int id) {
 								dialog.cancel();
 							}

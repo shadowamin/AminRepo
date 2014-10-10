@@ -27,11 +27,10 @@
          android:id="@+id/ModeProb"
          android:layout_width="wrap_content"
        android:layout_height="48dp"
-         android:text="All"
          android:layout_marginLeft="25dp"
          android:gravity="center_vertical"
          android:textColor="@color/green"
-         
+         android:text="@string/a_all"
          android:textAppearance="?android:attr/textAppearanceLarge" />
 
        <ImageView
@@ -50,31 +49,7 @@ android:layout_width="fill_parent"
 android:layout_height="2dip"
 android:background="@color/green"  /> 
     </LinearLayout>
-       
-
-<!--         <LinearLayout
-            android:id="@+id/linearLayout2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true" >
-
-            
-                 <Button
-                android:id="@+id/button1"
-                style="?android:attr/buttonStyleSmall"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Button" />
-           
-        </LinearLayout> -->
-         <!-- <ImageView
-            android:id="@+id/settingBtn"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-           
-            android:onClick="onClick"
-            android:layout_alignParentRight="true" 
-            android:src="@drawable/settings" /> -->
+      
 <ImageView
             android:id="@+id/AddP"
             android:layout_width="50dp"
@@ -104,7 +79,7 @@ android:background="@color/green"  />
         android:layout_height="50dp"
         android:ems="10" 
          
-        android:hint="Search...">
+        android:hint="">
 
         <requestFocus />
     </EditText>
@@ -146,7 +121,7 @@ android:background="@color/green"  />
             android:minHeight="50dp"
             android:ems="10"
             android:paddingRight="30dp"
-             android:hint="The problem..."
+             android:hint=""
             android:inputType="textMultiLine|textCapSentences" />
 
      <ImageView
@@ -208,7 +183,7 @@ android:background="@color/green"  />
                 android:textColor="@color/blue"
              android:layout_margin="4dp"
              android:onClick="onClick"
-                android:text="Save" />
+                android:text="@string/a_save" />
 
             <Button
                 android:id="@+id/CancelBtn"
@@ -219,7 +194,7 @@ android:background="@color/green"  />
                 android:background="#ffffff"
                 android:textColor="@color/blue"
                 android:onClick="onClick"
-                android:text="Cancel" />
+                android:text="@string/a_cancel" />
 
         </LinearLayout>
 
@@ -245,7 +220,41 @@ android:dividerHeight="0dp" >
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
 
-    </FrameLayout>    
+         
+
+    </FrameLayout>   
+<!--     <TextView
+             android:id="@+id/MsgNoprob"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="No Problem added yet"
+             android:layout_centerInParent="true"
+             android:textColor="@color/grey"
+             android:visibility="gone"
+             android:textAppearance="?android:attr/textAppearanceLarge" />  -->
+             <RelativeLayout
+                 android:id="@+id/textNoProb"
+             android:layout_width="250dp"
+             android:layout_height="120dp"
+             android:layout_alignParentRight="true"
+             android:layout_marginRight="50dp"
+             android:layout_marginTop="40dp"
+              android:visibility="gone"
+             android:background="@drawable/popupicon"
+            >
+
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_centerHorizontal="true"
+                     android:layout_centerVertical="true"
+                     android:gravity="center"
+                      android:textAppearance="?android:attr/textAppearanceLarge"
+                      android:textColor="#ffffff"
+                     android:text="@string/textNoProb" />
+
+         </RelativeLayout>
 </RelativeLayout>
 
 

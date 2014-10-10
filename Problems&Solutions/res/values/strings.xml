@@ -4,5 +4,37 @@
     <string name="app_name">Problems&amp;Solutions</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="a_cancel">Cancel</string>
+    <string name="a_save">Save</string>
+    <string name="priority_set">Priority set up</string>
+    <string name="nodate">No date</string>
+    <string name="a_categories">Categories</string>
+    <string name="a_others">Others</string>
+    <string name="a_work">Work</string>
+    <string name="a_study">Study</string>
+    <string name="a_health">Health</string>
+    <string name="a_social">Social</string>
+    <string name="a_result">Result</string>
+    <string name="try_again">Retry</string>
+    <string name="ok">OK</string>
+    <string name="a_problems">Problems</string>
+    <string name="a_delete">Delete</string>
+    <string name="show_categories">Show categories</string>
+    <string name="a_notification">Notification</string>
+    <string name="addcat">Add categorie</string>
+    <string name="delete_categories">Dalete categories</string>
+    <string name="a_solutions">Solutions</string>
+    <string name="save_fixed">Save as fixed ?</string>
+    <string name="save_unfixed">Save as unfixed ?</string>
+    <string name="delete_prob">Delete problem ?</string>
+    <string name="delete_sol">Delete solution ?</string>
+    <string name="a_all">All</string>
+    <string name="a_fixed">Fixed</string>
+    <string name="a_unfixed">Unfixed</string>
+    <string name="deletedcat">Categories deleted</string>
+    <string name="notifon">Notification on</string>
+    <string name="notifoff">Notification off</string>
+    <string name="notifmsg">problems to solve today</string>
+    <string name="textNoProb">You can add a new problem \n from here :)</string>
 
 </resources>

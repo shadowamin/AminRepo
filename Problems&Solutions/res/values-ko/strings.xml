@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name"> 문제 및 해결 방법</string>
+    <string name="hello_world"> 안녕하세요 세계! </string>
+    <string name="action_settings"> 설정 </string>
+    <string name="a_cancel"> 취소 </string>
+    <string name="a_save"> 저장 </string>
+    <string name="priority_set"> 우선 순위가 설정 </string>
+    <string name="nodate"> 날짜 없음 </string>
+    <string name="a_categories"> 카테고리 </string>
+    <string name="a_others"> 기타 </string>
+    <string name="a_work"> 작업 </string>
+    <string name="a_study"> 연구 </string>
+    <string name="a_health"> 건강 </string>
+    <string name="a_social"> 사회 </string>
+    <string name="a_result"> 결과 </string>
+    <string name="try_again"> 다시 시도 </string>
+    <string name="ok"> 확인 </string>
+    <string name="a_problems"> 문제 </string>
+    <string name="a_delete"> 삭제 </string>
+    <string name="show_categories"> 카테고리 표시 </string>
+    <string name="a_notification"> 알림 </string>
+    <string name="addcat"> categorie 추가 </string>
+    <string name="delete_categories"> Dalete 범주 </string>
+    <string name="a_solutions"> 솔루션 </string>
+    <string name="save_fixed">으로 고정? 저장 </string>
+    <string name="save_unfixed">로 수정되지 않은? </string>
+      <string name="delete_prob"> 문제를 삭제 하시겠습니까? </string>
+    <string name="delete_sol"> 솔루션을 삭제 하시겠습니까? </string>
+    <string name="a_all"> 모든 </string>
+    <string name="a_fixed"> 고정 </string>
+    <string name="a_unfixed"> 미 정착 </string>
+    <string name="deletedcat"> 카테고리 삭제 </string>
+    <string name="notifon">에서 알림 </string>
+    <string name="notifoff"> 오프 알림 </string>
+    <string name="notifmsg"> 문제는 현재 해결하기 위해 </string>
+<string name="textNoProb">여기에서 새로운 문제를 추가 할 수 있습니다 :)</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name"> Problemas&amp;Solutions </string>
+    <string name="hello_world"> Olá, mundo! </string>
+    <string name="action_settings"> Configurações </string>
+    <string name="a_cancel"> Cancelar </string>
+    <string name="a_save"> Salvar </string>
+    <string name="priority_set"> Prioridade configurar </string>
+    <string name="nodate"> Sem data </string>
+    <string name="a_categories">  Categorias </string>
+    <string name="a_others"> Outros  </string>
+    <string name="a_work"> Trabalho </string>
+    <string name="a_study"> Estudo </string>
+    <string name="a_health"> Saúde </string>
+    <string name="a_social"> Sociais </string>
+    <string name="a_result"> Resultado </string>
+    <string name="try_again"> Retry </string>
+    <string name="ok"> OK </string>
+    <string name="a_problems"> Problemas </string>
+    <string name="a_delete"> Excluir </string>
+    <string name="show_categories"> Mostrar  categorias </string>
+    <string name="a_notification"> Notificação </string>
+    <string name="addcat"> Adicionar categorie </string>
+    <string name="delete_categories">  categorias Dalete </string>
+    <string name="a_solutions">  Solutions </string>
+    <string name="save_fixed"> Salvar como fixo? </string>
+    <string name="save_unfixed"> Salvar como não fixo? </string>
+    <string name="delete_prob"> Excluir problema? </string>
+    <string name="delete_sol"> Excluir solução? </string>
+    <string name="a_all"> All </string>
+    <string name="a_fixed"> fixo </string>
+    <string name="a_unfixed"> Unfixed </string>
+    <string name="deletedcat"> Categorias excluídos </string>
+    <string name="notifon"> Notificação on </string>
+    <string name="notifoff"> Notificação off </string>
+    <string name="notifmsg">  problemas para resolver hoje </string>
+    <string name="textNoProb">Você pode adicionar um novo \n problema a partir daqui :)</string>
+
+</resources>

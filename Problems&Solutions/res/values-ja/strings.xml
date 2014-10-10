@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">問題と解決方法</string>
+    <string name="hello_world">こんにちは！</string>
+    <string name="action_settings">設定</string>
+    <string name="a_cancel" >キャンセル</string>
+    <string name="a_save">保存</string>
+    <string name="priority_set">優先順位を設定</string>
+    <string name="nodate">日付なし</string>
+    <string name="a_categories">カテゴリー</string>
+    <string name="a_others">その他</string>
+    <string name="a_work">ワーク</string>
+    <string name="a_study">スタディ</string>
+    <string name="a_health">健康</string>
+    <string name="a_social">社会</string>
+    <string name="a_result">結果</string>
+    <string name="try_again">再試行</string>
+    <string name="ok"> OK </string>
+    <string name="a_problems">の問題</string>
+    <string name="a_delete">削除</string>
+    <string name="show_categories">表示のカテゴリ</string>
+    <string name="a_notification">通知</string>
+    <string name="addcat">カテゴリーを追加</string>
+    <string name="delete_categories"> Daleteカテゴリ</string>
+    <string name="a_solutions">ソリューション</string>
+    <string name="save_fixed">のように固定された？保存</string>
+    <string name="save_unfixed">のような固定されていない？</string>
+    <string name="delete_prob">問題を削除しますか？</string>
+    <string name="delete_sol">ソリューションを削除しますか？</string>
+    <string name="a_all">すべての</string>
+    <string name="a_fixed">固定</string>
+    <string name="a_unfixed">不定</string>
+    <string name="deletedcat">カテゴリーが削除</string>
+    <string name="notifon">告示</string>
+    <string name="notifoff">オフの通知</string>
+    <string name="notifmsg">の問題は、今日解決する</string>
+<string name="textNoProb">ここから新たな問題を追加することができます :)</string>
+</resources>

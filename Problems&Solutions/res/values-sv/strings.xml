@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name"> Problem&amp;Solutions </string>
+    <string name="hello_world"> Hej världen! </string>
+    <string name="action_settings"> Inställningar </string>
+    <string name="a_cancel"> Avbryt </string>
+    <string name="a_save"> Spara </string>
+    <string name="priority_set"> Prioritet inrättas </string>
+    <string name="nodate"> Inget datum </string>
+    <string name="a_categories"> kategorier </string>
+    <string name="a_others"> Övrigt </string>
+    <string name="a_work"> Work </string>
+    <string name="a_study"> Study </string>
+    <string name="a_health"> Hälsa </string>
+    <string name="a_social"> Social </string>
+    <string name="a_result"> Resultat </string>
+    <string name="try_again"> Försök igen </string>
+    <string name="ok"> OK </string>
+    <string name="a_problems"> Problem </string>
+    <string name="a_delete"> Ta bort </string>
+    <string name="show_categories"> Visa kategorier </string>
+    <string name="a_notification"> Anmälan </string>
+    <string name="addcat"> Lägg categorie </string>
+    <string name="delete_categories"> Dalete kategorier </string>
+    <string name="a_solutions"> Lösningar </string>
+    <string name="save_fixed"> Spara som fast? </string>
+    <string name="save_unfixed"> Spara som ofixerade? </string>
+    <string name="delete_prob"> Ta bort problemet? </string>
+    <string name="delete_sol"> Delete lösning? </string>
+    <string name="a_all"> Alla </string>
+    <string name="a_fixed"> Fast </string>
+    <string name="a_unfixed"> Ofixerad </string>
+    <string name="deletedcat"> Kategorier utgår </string>
+    <string name="notifon"> Anmälan om </string>
+    <string name="notifoff"> Anmälan av </string>
+    <string name="notifmsg"> problem att lösa i dag </string>
+<string name="textNoProb"> Du kan lägga till ett nytt \n problem härifrån :)</string>
+   
+</resources>

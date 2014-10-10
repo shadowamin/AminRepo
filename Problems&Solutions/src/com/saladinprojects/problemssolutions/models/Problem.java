@@ -140,9 +140,9 @@ public void setTag(String tag) {
 		else if (this.date.length()> another.date.length())
 			return -1;
 		else if(sdf.parse(this.date).after(sdf.parse(another.date)))
-					return -1;
-				else if(sdf.parse(this.date).before(sdf.parse(another.date)))
 					return 1;
+				else if(sdf.parse(this.date).before(sdf.parse(another.date)))
+					return -1;
 				else
 					return 0;
 			} catch (NumberFormatException e) {

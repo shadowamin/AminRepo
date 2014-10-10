@@ -3,6 +3,7 @@ package com.saladinprojects.problemssolutions.db;
 
 import java.util.ArrayList;
 
+import com.saladinprojects.problemssolutions.R;
 import com.saladinprojects.problemssolutions.models.Categorie;
 import com.saladinprojects.problemssolutions.models.Problem;
 import com.saladinprojects.problemssolutions.models.Solution;
@@ -12,6 +13,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.support.v4.app.FragmentActivity;
  
 public class DBHandler extends SQLiteOpenHelper {
  
@@ -22,7 +24,7 @@ public class DBHandler extends SQLiteOpenHelper {
     private static final String TABLE_PROBS = "problems";
     private static final String TABLE_SOL = "solutions";
     private static final String TABLE_CAT = "categories";
- private String[] defaultCats={"work","study","health","family","religion"};
+
  
     public DBHandler(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
@@ -100,10 +102,11 @@ public class DBHandler extends SQLiteOpenHelper {
    	 
     }
     
-    public ArrayList<Categorie> geCategories()
+    public ArrayList<Categorie> geCategories(FragmentActivity activity)
     { SQLiteDatabase db = this.getWritableDatabase();
 	 if(!tableExists(TABLE_CAT))
 	    {
+		  String[] defaultCats={activity.getString(R.string.a_work),activity.getString(R.string.a_study),activity.getString(R.string.a_health),activity.getString(R.string.a_social)};
 	   	  String CREATE_WORDS_TABLE = "CREATE TABLE "+TABLE_CAT+" (id INTEGER PRIMARY KEY , title TEXT)";
 	   	     db.execSQL(CREATE_WORDS_TABLE); 
 	   	  for(int i=0;i<defaultCats.length;i++)
